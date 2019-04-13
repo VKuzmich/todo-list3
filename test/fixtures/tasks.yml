@@ -2,10 +2,12 @@
 
 one:
   name: MyString
-  status: false
-  order: 1
+  status:
+  order: 9.99
+  project_id:
 
 two:
   name: MyString
-  status: false
-  order: 1
+  status:
+  order: 9.99
+  project_id:
