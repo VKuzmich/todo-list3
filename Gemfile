@@ -65,5 +65,5 @@ gem "devise", "~> 4.6"
 
 gem "bcrypt", "~> 3.1"
 
-gem "gem", "~> 0.0.1.alpha"
+
 gem "bootstrap-sass", "~> 3.4"

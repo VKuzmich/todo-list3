@@ -22,15 +22,15 @@
     </div>
     <div class="task">
       <p><%= task.name %></p>
-      </div>
-      <div class="trash">
-        <i class="fa fa-sort"></i>
-        <%= link_to project_task_path(task.project_id, task.id) do %>
-          <i class='fa fa-pencil'></i>
-        <% end %>
-        <%= link_to project_task_path(task.project_id, task.id), method: :delete, data: { confirm: 'Are you sure?'} do %>
-          <i class='fa fa-trash'></i>
-        <% end %>
-      </div>
+    </div>
+    <div class="trash">
+      <i class="fa fa-sort"></i>
+      <%= link_to project_task_path(task.project_id, task.id) do %>
+        <i class='fa fa-pencil'></i>
+      <% end %>
+      <%= link_to project_task_path(task.project_id, task.id), method: :delete, data: { confirm: 'Are you sure?'} do %>
+        <i class='fa fa-trash'></i>
+      <% end %>
+    </div>
   <% end %>
-  </div>
+</div>
