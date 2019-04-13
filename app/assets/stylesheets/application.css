@@ -129,6 +129,9 @@ body {
      background-color: #FCFED5;
  }
 }
+.hide {
+    display: hide;
+}
 
 #task_wrapper {
 .row {
@@ -144,6 +147,8 @@ body {
 }
 .task {
     float: left;
+    border-right: 1px solid;
+    border-color: lightgray;
 p {
     margin: 0;
     padding: 1em;
@@ -154,8 +159,6 @@ p {
 .trash {
     float: left;
     text-align: center;
-    border-left: 1px solid;
-    border-color: lightgray;
     padding: 1em 0;
 i {
 // visibility: hidden;
@@ -183,7 +186,7 @@ form {
     display: flex;
     align-items: center;
 }
-#form {
+.form {
 // padding: 0 2%;
     height: 100%;
 
