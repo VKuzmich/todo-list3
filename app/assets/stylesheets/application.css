@@ -125,15 +125,13 @@ body {
 
 .hover-colorize {
 &:hover {
- // visibility: visible;
      background-color: #FCFED5;
  }
 }
 .hide {
     display: hide;
 }
-
-#task_wrapper {
+.task_wrapper {
 .row {
     width: 100%;
     border-bottom: 1px solid;
