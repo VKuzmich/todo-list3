@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_13_162504) do
+ActiveRecord::Schema.define(version: 2019_04_14_203417) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,7 +19,10 @@ ActiveRecord::Schema.define(version: 2019_04_13_162504) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
   end
+
+  add_index "projects", ["user_id"], name: "index_projects_on_user_id", using: :btree
 
   create_table "tasks", force: :cascade do |t|
     t.string "name"
@@ -30,8 +33,10 @@ ActiveRecord::Schema.define(version: 2019_04_13_162504) do
     t.datetime "updated_at", null: false
     t.datetime "completed_at"
     t.datetime "deadline_at"
-    t.index ["project_id"], name: "index_tasks_on_project_id"
+
   end
+
+  add_index "tasks", ["project_id"], name: "index_tasks_on_project_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -46,8 +51,8 @@ ActiveRecord::Schema.define(version: 2019_04_13_162504) do
     t.string "last_sign_in_ip"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
 end
