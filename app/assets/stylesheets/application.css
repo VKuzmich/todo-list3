@@ -77,6 +77,12 @@ body {
 .clearfix:after {
     clear: both;
 }
+.navbar {
+    border: none;
+.navbar-right {
+    margin: 0;
+}
+}
 
 #notice {
     text-align: center;
@@ -203,7 +209,7 @@ p {
     text-decoration: line-through red;
 }
 }
-form {
+.task-form {
     height: 100%;
     display: flex;
     align-items: center;
@@ -249,6 +255,10 @@ input[type="submit"] {
 
 .outlined {
     outline: 1px solid gray;
+}
+
+.low-margin {
+    margin: 1em;
 }
 
 .links {
