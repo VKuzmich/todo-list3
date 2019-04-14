@@ -25,7 +25,7 @@ $(document).ready(function(){
         }
     );
 
-    $(".task_wrapper") .find (".row").hover(
+    $(".task_wrapper .row").hover(
         function () {
             $(this).find(".trash").removeClass("hide");
         },
