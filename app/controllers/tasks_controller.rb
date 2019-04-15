@@ -5,6 +5,7 @@ class TasksController < ApplicationController
 
   def create
     @task = @project.tasks.create(name: task_params[:name], order: @project.tasks.count)
+
     respond_to do |format|
       if @task.save
         format.html { redirect_to root_path, notice: 'Task was successfully created.' }
@@ -35,8 +36,6 @@ class TasksController < ApplicationController
         format.json { head :no_content }
       end
     end
-
-
   end
 
   def complete
@@ -46,7 +45,6 @@ class TasksController < ApplicationController
         format.js   { }
       end
     end
-
   end
 
   private

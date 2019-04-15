@@ -77,6 +77,7 @@ body {
 .clearfix:after {
   clear: both;
 }
+
 .navbar {
   border: none;
   .navbar-right {
@@ -167,41 +168,46 @@ body {
       border-right: 1px solid;
       border-color: lightgray;
       margin: 0;
+      padding: 1em;
+      color: $dark;
+      font-weight: 100;
+      label {
+        margin: 0;
+      }
     }
-  }
-  .trash {
-    float: left;
-    text-align: center;
-    padding: 1em 0;
+    .trash {
+      float: left;
+      text-align: center;
+      padding: 1em 0;
+      i {
+        // visibility: hidden;
+        color: $gray;
+        margin-left: 5%;
+        margin-right: 5%;
+        transition: all .4s ease-in-out;
+        &:hover {
+          // visibility: visible;
+          color: $dark;
+        }
+      }
+      a {
+        text-decoration: none;
+      }
+    }
     i {
-      // visibility: hidden;
       color: $gray;
-      margin-left: 5%;
-      margin-right: 5%;
       transition: all .4s ease-in-out;
       &:hover {
-        // visibility: visible;
         color: $dark;
       }
     }
-    a {
-      text-decoration: none;
-    }
-  }
-  i {
-    color: $gray;
-    transition: all .4s ease-in-out;
-    &:hover {
-      color: $dark;
-    }
   }
 }
-
 .completed {
   i, label {
     opacity: 0.4;
   }
-  lebel {
+  label {
     text-decoration: line-through red;
   }
 }

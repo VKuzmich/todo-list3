@@ -68,3 +68,5 @@ gem "bcrypt", "~> 3.1"
 
 gem "bootstrap-sass", "~> 3.4"
 gem 'rails_12factor', group: :production
+
+gem 'jquery-rails'
