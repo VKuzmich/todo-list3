@@ -1,7 +1,7 @@
 class TasksController < ApplicationController
   before_action :set_project
   before_action :set_task, except: [:create]
-  before_filter :authenticate_user!
+  before_action :authenticate_user!
 
   def create
     @task = @project.tasks.create(name: task_params[:name], order: @project.tasks.count)
