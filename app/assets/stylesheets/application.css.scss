@@ -11,9 +11,9 @@
  * file per style scope.
  *
  */
-
-@import "bootstrap-sprockets";
 @import "bootstrap";
+@import "bootstrap-sprockets";
+
 
 $white_opaque: rgba(250, 250, 250, .9);
 $gray: #989898;
