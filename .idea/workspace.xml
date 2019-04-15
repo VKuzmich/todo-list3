@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be46262-ba67-4b04-8909-c1e869e09319" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tasks/update.js.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/projects/_project.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/_project.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/projects/create.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/create.js.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/_task.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/_task.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tasks/create.js.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tasks/create.js.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -24,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/todo_list3@Development__todo_list3.rcov" NAME="Development: todo-list3 Coverage Results" MODIFIED="1555277582311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todo-list3" />
+    <SUITE FILE_PATH="coverage/todo_list3@Development__todo_list3.rcov" NAME="Development: todo-list3 Coverage Results" MODIFIED="1555282460421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="todo-list3" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,7 +48,7 @@
           <entry key="coffee" value="4" />
           <entry key="css" value="12" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="53" />
+          <entry key="erb" value="54" />
           <entry key="jbuilder" value="3" />
           <entry key="js" value="6" />
           <entry key="lock" value="5" />
@@ -71,7 +64,7 @@
           <entry key="CoffeeScript" value="4" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="RHTML" value="53" />
+          <entry key="RHTML" value="54" />
           <entry key="Ruby" value="78" />
           <entry key="SCSS" value="3" />
           <entry key="YAML" value="13" />
@@ -108,8 +101,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="-318">
+              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -132,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/tasks/update.js.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -176,15 +178,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/complete.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -252,11 +245,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/create.js.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/_task.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/create.js.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/update.js.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
       </list>
     </option>
   </component>
@@ -280,7 +273,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="265" />
-    <option name="y" value="508" />
+    <option name="y" value="286" />
     <option name="width" value="1100" />
     <option name="height" value="693" />
   </component>
@@ -632,7 +625,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554989101203</updated>
       <workItem from="1554989105611" duration="26781000" />
-      <workItem from="1555187319109" duration="17037000" />
+      <workItem from="1555187319109" duration="17511000" />
     </task>
     <task id="LOCAL-00001" summary="added projects">
       <created>1555069793144</created>
@@ -851,14 +844,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555281649575</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="adding js">
+      <created>1555282447257</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1555282447257</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43818000" />
+    <option name="totallyTimeSpent" value="44292000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="508" width="1100" height="693" extended-state="0" />
+    <frame x="265" y="286" width="1100" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22873347" />
@@ -908,13 +908,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="adding js" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1190,13 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/create.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -1229,6 +1215,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-318">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
