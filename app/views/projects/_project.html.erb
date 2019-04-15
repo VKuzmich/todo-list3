@@ -5,14 +5,16 @@
   </div>
   <div class="project_title col-xs-9">
     <%= form_for project, remote: true do |f| %>
-      <%= f.label "#{project.name}", class: 'label_title' %>
+      <span class='label_title'>
+        <%= project.name %>
+      </span>
       <%= f.text_field :name, class: 'input_title' %>
     <% end %>
   </div>
   <div class="small-buttons col-xs-2 hide">
     <small>
       <%= link_to '', class: "edit-project" do %>
-        <i class='fa fa-pencil'></i>
+        <i class='fa fa-pencil-alt'></i>
       <% end %>
     </small>
     |

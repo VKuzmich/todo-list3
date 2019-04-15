@@ -13,7 +13,7 @@ class ProjectsController < ApplicationController
 
   # POST /projects.json
   def create
-    @project = current_user.projects.build(name: "New Project")
+    @project = current_user.projects.build(name: 'New Project')
 
     respond_to do |format|
       if @project.save

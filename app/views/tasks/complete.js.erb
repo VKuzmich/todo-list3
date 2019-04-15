@@ -1,6 +1,6 @@
 $('.complete-task').bind('ajax:success', function() {
     $(this).closest('.row').addClass("completed");
-    checkbox = $(this).find(".fa");
-    checkbox.removeClass("fa-square-o");
-    checkbox.addClass("fa-check-square-o");
+    checkbox = $(this).find(".far");
+    checkbox.removeClass("fa-square");
+    checkbox.addClass("fa-check-square");
 });

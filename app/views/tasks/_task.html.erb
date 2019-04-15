@@ -1,7 +1,7 @@
 <div class="row clearfix hover-colorize <%= task.completed? ? 'completed' : '' %>">
   <div class="complete col-xs-1">
     <%= link_to complete_project_task_path(task.project_id, task.id), remote: true, method: :patch, class: "complete-task" do%>
-      <i class='fa <%= task.completed? ? 'fa-check-square-o' : 'fa-square-o' %>' ></i>
+      <i class='far <%= task.completed? ? 'fa-check-square' : 'fa-square' %>' ></i>
     <% end %>
   </div>
   <div class="task col-xs-9">
@@ -14,7 +14,7 @@
     <i class="fa fa-sort"></i>
     |
     <%= link_to '', class: "edit-task" do %>
-      <i class='fa fa-pencil'></i>
+      <i class='fa fa-pencil-alt'></i>
     <% end %>
     |
     <%= link_to project_task_path(task.project_id, task.id), method: :delete, data: { confirm: 'Are you sure?'}, class: 'delete-task', remote: true do %>
