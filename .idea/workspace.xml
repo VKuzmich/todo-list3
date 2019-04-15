@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1be46262-ba67-4b04-8909-c1e869e09319" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tasks_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/projects/_project.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/_project.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -46,27 +48,27 @@
         <counts>
           <entry key="Gemfile" value="4" />
           <entry key="coffee" value="4" />
-          <entry key="css" value="12" />
+          <entry key="css" value="13" />
           <entry key="enc" value="1" />
-          <entry key="erb" value="58" />
+          <entry key="erb" value="59" />
           <entry key="jbuilder" value="3" />
           <entry key="js" value="6" />
           <entry key="lock" value="5" />
           <entry key="pid" value="2" />
-          <entry key="rb" value="71" />
-          <entry key="scss" value="3" />
+          <entry key="rb" value="72" />
+          <entry key="scss" value="4" />
           <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="12" />
+          <entry key="CSS" value="13" />
           <entry key="CoffeeScript" value="4" />
           <entry key="JavaScript" value="6" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="RHTML" value="58" />
-          <entry key="Ruby" value="78" />
-          <entry key="SCSS" value="3" />
+          <entry key="RHTML" value="59" />
+          <entry key="Ruby" value="79" />
+          <entry key="SCSS" value="4" />
           <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
@@ -75,10 +77,11 @@
           <entry key="Gemfile" value="6" />
           <entry key="coffee" value="1" />
           <entry key="css" value="31" />
-          <entry key="erb" value="127" />
+          <entry key="erb" value="139" />
           <entry key="js" value="23" />
           <entry key="lock" value="10" />
           <entry key="rb" value="153" />
+          <entry key="scss" value="1" />
           <entry key="txt" value="177" />
           <entry key="yml" value="27" />
         </counts>
@@ -89,8 +92,9 @@
           <entry key="CoffeeScript" value="1" />
           <entry key="JavaScript" value="23" />
           <entry key="PLAIN_TEXT" value="187" />
-          <entry key="RHTML" value="127" />
+          <entry key="RHTML" value="139" />
           <entry key="Ruby" value="159" />
+          <entry key="SCSS" value="1" />
           <entry key="YAML" value="27" />
         </counts>
       </usages-collector>
@@ -98,11 +102,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/projects/create.js.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -126,19 +139,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/projects/update.js.erb">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="84">
+              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/update.js.erb">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="2" lean-forward="true" selection-end-line="268" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -164,24 +186,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/_task.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/tasks/create.js.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -217,7 +221,6 @@
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190413150810_add_devise_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190413162504_add_devise_to_users.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/project.rb" />
@@ -235,14 +238,15 @@
         <option value="$PROJECT_DIR$/app/views/tasks/complete.js.erb" />
         <option value="$PROJECT_DIR$/app/views/projects/update.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/create.js.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/_task.html.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/create.js.erb" />
         <option value="$PROJECT_DIR$/app/views/tasks/update.js.erb" />
-        <option value="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/tasks_controller.rb" />
       </list>
     </option>
   </component>
@@ -265,9 +269,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="444" />
-    <option name="width" value="1100" />
+    <option name="x" value="266" />
+    <option name="y" value="46" />
+    <option name="width" value="1080" />
     <option name="height" value="693" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -596,7 +600,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554989101203</updated>
       <workItem from="1554989105611" duration="26781000" />
-      <workItem from="1555187319109" duration="18894000" />
+      <workItem from="1555187319109" duration="20497000" />
     </task>
     <task id="LOCAL-00001" summary="added projects">
       <created>1555069793144</created>
@@ -833,13 +837,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45675000" />
+    <option name="totallyTimeSpent" value="47278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="444" width="1100" height="693" extended-state="0" />
+    <frame x="266" y="46" width="1080" height="693" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22873347" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23314066" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1079,13 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="189" column="16" lean-forward="true" selection-start-line="189" selection-start-column="16" selection-end-line="189" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1121,27 +1118,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="205" column="1" lean-forward="true" selection-start-line="205" selection-start-column="1" selection-end-line="205" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/projects/create.js.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1206,8 +1182,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/_project.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/projects/create.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" lean-forward="true" selection-end-line="268" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
