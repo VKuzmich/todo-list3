@@ -11,10 +11,11 @@
 // about supported directives.
 //
 
-//= require activestorage
-//= require bootstrap-sprockets
-//= require rails-ujs
+//= require jquery
+//= require jquery_ujs
 //= require turbolinks
+//= require bootstrap-sprockets
+
 //= require_tree .
 $(document).ready(function(){
     $(".project-header").hover(
