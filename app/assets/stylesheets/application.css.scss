@@ -28,11 +28,13 @@ html {
 }
 
 body {
-  background: -webkit-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
-  background:    -moz-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
-  background:     -ms-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
-  background:      -o-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
-  background:         linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
+  background-image: linear-gradient(rgb(202, 207, 210), rgb(214, 137, 16));
+  //
+  //background: -webkit-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
+  //background:    -moz-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
+  //background:     -ms-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
+  //background:      -o-linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
+  //background:         linear-gradient( #d3cdc2 40%, #d1a31e 60%, #b75a0c 100%);
   background-attachment: fixed;
   padding-top: 50px;
   font-family: 'Lato', sans-serif;
