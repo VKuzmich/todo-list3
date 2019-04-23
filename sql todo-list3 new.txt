@@ -1,0 +1,90 @@
+Given tables:
+01. tasks (id, name, status, project_id)
+02. projects (id, name)
+
+
+
+
+1. Get all statuses, not repeating, alphabetically ordered. 
+
+SELECT DISTINCT status 
+FROM tasks 
+ORDER BY status ASC;
+
+(или 
+SELECT DISTINCT name, status 
+FROM tasks 
+ORDER BY name ASC;)
+
+
+
+2. Get the count of all tasks in each project, order tasks count descending
+
+SELECT  project_id, COUNT( * ) 
+FROM  tasks
+GROUP BY project_id
+ORDER BY 2 desc
+
+
+3. Get the count of all tasks in each project, order by projects names.
+
+
+SELECT  project_id, COUNT( * ) 
+FROM  tasks 
+GROUP BY project_id
+ORDER BY name;
+
+
+
+4. Get the tasks for all projects having the name beginning with «N» letter.
+
+SELECT projects.name, tasks.id, tasks.name, tasks.status 
+FROM tasks 
+LEFT JOIN projects
+	ON projects.id = tasks.project_id
+WHERE projects.name LIKE "N%";
+
+
+5. Get the list of all projects containing the ‘a’ letter in the middle of the name and show the tasks count near each project. Mention that there can exit projects without tasks and tasks with project_id = NULL
+
+
+SELECT  Projects.ID, Projects.Name, COUNT(Tasks.Project_ID) 
+FROM    Projects  
+LEFT JOIN Tasks 
+            ON Tasks.Project_ID = Projects.ID 
+WHERE Projects.Name like "%a%" 
+ GROUP BY Projects.ID
+ 
+
+6. Get all the list of tasks with duplicate names. Order alphabetically.
+
+
+SELECT name 
+FROM tasks
+GROUP BY name
+HAVING COUNT(*) > 1
+ORDER BY name ASC
+
+
+
+7. Get list of tasks having several exact matches of both name and status, from the projects ‘Garage’. Order by matches count.
+
+
+SELECT name, status, COUNT(tasks.name)
+       FROM tasks
+       GROUP BY name, status
+       HAVING COUNT(*) > 1
+   ORDER BY 3 
+
+
+
+8. Get the list of project names having more than 10 tasks in status ‘completed’. Order by project_id. 
+
+SELECT  Projects.ID, Projects.name, COUNT(Tasks.status) 
+FROM    Projects  
+LEFT JOIN Tasks 
+            ON Tasks.Project_ID = Projects.ID 
+WHERE tasks.status like "completed"
+ GROUP BY Projects.ID
+ HAVING COUNT(Tasks.status) > 10
+
